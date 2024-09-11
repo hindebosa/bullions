@@ -73,6 +73,13 @@ You can use the `Metal Price API` to fetch the gold price. Furthermore, ensure t
 
  > Ensure that the project can be cloned and run on different environments using the above instructions.
 
+## Resources
+
+For fetching the live Gold prices, you may consider using the API provided by [Metal Price API](https://metalpriceapi.com/).
+
+This API delivers accurate and reliable metal prices and includes a wide range of historical data. However, 
+feel free to explore other solutions if you find them more suitable for this task.
+
 ## Bonus
 
 If you have completed the main tasks and have some time to spare, consider accomplishing this bonus task of creating a User entity.
@@ -88,3 +95,4 @@ If you have completed the main tasks and have some time to spare, consider accom
 Remember, accomplishing this bonus task would highlight your skill in managing database relations, an important aspect when dealing with complex databases.
 
 Happy coding!
+
