@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+  db:
+    image: postgres:14
+    restart: always
+    environment:
+      - POSTGRES_USER=hilton
+      - POSTGRES_PASSWORD=mypassword
+      - POSTGRES_DB=sabullions
+    ports:
+      - '5436:5432'
+    volumes:
+      - db:/var/lib/postgresql/data
+
+volumes:
+  db:
+    driver: local
